@@ -6,3 +6,5 @@ copy LICENSE.md bin
 copy README.md bin
 copy "tools\gettext-0.14.4\*.*" "bin\tools\gettext-0.14.4"
 ".nuget\NuGet.exe" pack i18n.nuspec -BasePath bin
+
+test
